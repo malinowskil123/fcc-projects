@@ -1,0 +1,62 @@
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+    background-image: linear-gradient(141deg, #f0bf83 0%, #1fc8db 51%, #2cb5e8 75%);
+    font: normal 18px Arial, Helvetica, sans-serif;            
+}
+h1, h2, h3, p{
+    color: #333 !important;
+}
+li{
+    padding: 25px 0px 25px 15px;
+    color: #333 !important;
+}
+.button-color{
+   background: #fd8e04 !important;  
+}
+/*Responsive Screens*/
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px){
+    .container {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }  
+}
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* weird */
+@media  (max-width: 991px){
+    .container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px){
+    .container{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
