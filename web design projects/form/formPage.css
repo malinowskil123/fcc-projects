@@ -1,0 +1,82 @@
+.element-content{
+    padding: 50px 25px 50px 25px;
+}
+.card-color{
+    background-color: rgb(79, 83, 82);
+}
+.button-color{
+    background-color: #85d3cc; 
+}
+.button-color:hover {
+    background-color:#6d5b7c;  
+}
+
+h1{
+    color: #85d3cc !important;
+}
+h2, h3, p{
+    color: #333333;
+}
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+    background-image: linear-gradient(to right,#85d3cc 25%, #6d5b7c 75%);
+    font: normal 18px Arial, Helvetica, sans-serif;            
+}
+.align-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.align-child {
+    max-width: 50%;
+}
+ul{
+    list-style: none;
+}
+/*Responsive Screens*/
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px){
+    .container {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }  
+}
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* weird */
+@media  (max-width: 991px){
+    .container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px){
+    .container{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
