@@ -1,0 +1,149 @@
+body{
+    background: lightsteelblue;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    width:100%;
+    background: #333333;
+}
+header ul{
+    width:80%;
+    margin: 0 auto;
+    padding: 0;
+}
+header ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+header ul li:hover{
+    background: #0a85ad;
+}
+ul li a{
+    color:#ffffff;
+}
+ul li a:hover{
+    color:#333;
+    text-decoration: none;
+
+}
+.toggle{
+    width: 100%;
+    padding: 10px 20px;
+    background: #001f44;
+    text-align: right;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-size: 30px;
+    display: none;
+}
+@media (max-width: 768px) {
+    .toggle{
+        display: block;
+    }
+    header ul{
+        width: 100px;
+        display: none; 
+    }
+    header ul li{
+        display: block;
+        text-align: center;
+    }
+    .active{
+        display: block;
+    }
+}
+.remove-bullets{
+    list-style: none;
+}
+.logo-img{
+    float: left;
+}
+.logo-text{
+    position: relative;
+}
+#logo{
+    width: 100%;
+    padding: 5px 10px 5px 10px;
+    background:lightslategrey;
+}
+.button-color{
+    background-color: #d17402;
+    color:white;
+}
+footer {
+    margin-top: 30px;
+    background-color: #001f44;
+    padding: 20px;
+}
+footer > ul {
+    display: flex;
+    justify-content: flex-end;
+}
+footer > ul > li{
+    padding: 0 10px;
+    list-style: none;
+}
+footer > ul > li > a:hover{
+   color:#333;
+}
+footer > span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.0em;
+    color: #ffffff;
+}
+
+/* input{
+    max-width: 50%;
+    alig
+} */
+/*Responsive Screens*/
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px){
+    .container {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }  
+}
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* weird */
+@media  (max-width: 991px){
+    .container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px){
+    .container{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
