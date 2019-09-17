@@ -1,5 +1,5 @@
 body{
-    background: lightsteelblue;
+    background: lightsteelblue !important;
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -27,7 +27,10 @@ ul li a{
 ul li a:hover{
     color:#333;
     text-decoration: none;
-
+}
+input {
+    max-width: 300px;
+    display: inline-block !important;
 }
 .toggle{
     width: 100%;
@@ -58,6 +61,10 @@ ul li a:hover{
 .remove-bullets{
     list-style: none;
 }
+#contact-promo{
+    display: inline;
+    vertical-align: middle;
+}
 .logo-img{
     float: left;
 }
@@ -72,6 +79,7 @@ ul li a:hover{
 .button-color{
     background-color: #d17402;
     color:white;
+    max-width: 100px;
 }
 footer {
     margin-top: 30px;
@@ -86,7 +94,7 @@ footer > ul > li{
     padding: 0 10px;
     list-style: none;
 }
-footer > ul > li > a:hover{
+footer > ul > li > a:hover{ 
    color:#333;
 }
 footer > span {
@@ -97,11 +105,21 @@ footer > span {
     color: #ffffff;
 }
 
-/* input{
-    max-width: 50%;
-    alig
-} */
 /*Responsive Screens*/
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+    overflow: hidden;
+}
+.video-container iframe{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
 /* Small devices (landscape phones, 576px and up) */
 @media only screen and (max-width: 576px){
     .container {
@@ -109,6 +127,9 @@ footer > span {
         margin-bottom: 10px;
         margin-left: auto;
         margin-right: auto;
+    }
+    h1,h2,h3{
+        font-size: x-large;
     }  
 }
 /* Medium devices (tablets, 768px and up) */
@@ -119,6 +140,7 @@ footer > span {
         margin-left: auto;
         margin-right: auto;
     }
+   
 }
 /* weird */
 @media  (max-width: 991px){
