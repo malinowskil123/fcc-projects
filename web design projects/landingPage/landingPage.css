@@ -3,30 +3,27 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    color: #333333;
 }
-nav{
-    width:100%;
-    background: #333333;
-}
-header ul{
-    width:80%;
-    margin: 0 auto;
+ul.top-nav {
+    list-style-type: none;
+    margin: 0;
     padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
-header ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 20px;
+ul.top-nav li{
+    float: left;
 }
-header ul li:hover{
-    background: #0a85ad;
-}
-ul li a{
-    color:#ffffff;
-}
-ul li a:hover{
-    color:#333;
+ul.top-nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 22px 20px;
     text-decoration: none;
+}
+ul.top-nav li :hover{
+    background: #0a85ad;
 }
 input {
     max-width: 300px;
@@ -43,16 +40,14 @@ input {
     display: none;
 }
 @media (max-width: 768px) {
-    .toggle{
-        display: block;
-    }
-    header ul{
-        width: 100px;
+    .hide-nav{
         display: none; 
     }
-    header ul li{
-        display: block;
-        text-align: center;
+    ul.top-nav li{
+        float: none;
+    }
+    .toggle{
+        display: block ;
     }
     .active{
         display: block;
@@ -69,6 +64,7 @@ input {
     float: left;
 }
 .logo-text{
+    color: #000000;
     position: relative;
 }
 #logo{
@@ -94,8 +90,16 @@ footer > ul > li{
     padding: 0 10px;
     list-style: none;
 }
+footer > ul > li{
+    padding: 0 10px;
+    list-style: none;
+}
+footer > ul > li > a{
+    color: white;
+}
 footer > ul > li > a:hover{ 
-   color:#333;
+   color:#d17402;
+   text-decoration: none;
 }
 footer > span {
     margin-top: 5px;
@@ -104,7 +108,6 @@ footer > span {
     font-size: 1.0em;
     color: #ffffff;
 }
-
 /*Responsive Screens*/
 .video-container {
 	position: relative;
@@ -130,7 +133,10 @@ footer > span {
     }
     h1,h2,h3{
         font-size: x-large;
-    }  
+    } 
+    .logo-text{
+        font-size: 28px !important;
+    } 
 }
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
