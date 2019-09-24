@@ -1,21 +1,11 @@
 body{
-    max-width: 100%;
-    overflow-x: hidden;
-    background-image: linear-gradient(141deg, #f0bf83 0%, #1fc8db 51%, #2cb5e8 75%);
-    font: normal 18px Arial, Helvetica, sans-serif;            
+    background: lightsteelblue !important;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #333333;
 }
-h1, h2, h3, p{
-    color: #333 !important;
-}
-li{
-    padding: 25px 0px 25px 15px;
-    color: #333 !important;
-}
-.button-color{
-   background: #fd8e04 !important;  
-}
-img{
-  display: block;
+@media (max-width: 768px) {
 }
 /*Responsive Screens*/
 /* Small devices (landscape phones, 576px and up) */
@@ -25,7 +15,7 @@ img{
         margin-bottom: 10px;
         margin-left: auto;
         margin-right: auto;
-    }  
+    }
 }
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -35,6 +25,7 @@ img{
         margin-left: auto;
         margin-right: auto;
     }
+   
 }
 /* weird */
 @media  (max-width: 991px){
