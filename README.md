@@ -1,2 +1,2 @@
-# FCC-front-end-projects
-Front-End projects from free code camp
+# fcc-projects
+Free Code Camp Projects
