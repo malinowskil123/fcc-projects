@@ -1,118 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="/front-end-projects/landingPage/landingPage.css" rel="stylesheet">    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="/front-end-projects/landingPage/landingPage.css"
+      rel="stylesheet"
+    />
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    
+
     <title>WorkHorse Audio Landing Page</title>
-</head>
-<body>
+  </head>
+  <body>
     <header id="header">
-        <div id="logo" class="pb-4 pb-sm-2">
-            <img id="header-img" src="https://static.thenounproject.com/png/19435-200.png" alt="logo" width="50px" class="logo-img">
-            <div><h1 class="logo-text">Work Horse Audio</h1></div>
-        </div>
-        <div class="toggle">
-            <i id="toggle" class="fa fa-bars" aria-hidden="true"></i>
-        </div>
-        <nav id="nav-bar">
-            <ul class="top-nav hide-nav">
-                <li><a href="#features" class="nav-link">Features</a></li>
-                <li><a href="#pricing" class="nav-link">Pricing</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-        </nav>
+      <div id="logo" class="pb-4 pb-sm-2">
+        <img
+          id="header-img"
+          src="./19435-200.png"
+          alt="logo"
+          width="50px"
+          class="logo-img"
+        />
+        <div><h1 class="logo-text">Work Horse Audio</h1></div>
+      </div>
+      <div class="toggle">
+        <i id="toggle" class="fa fa-bars" aria-hidden="true"></i>
+      </div>
+      <nav id="nav-bar">
+        <ul class="top-nav hide-nav">
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <div class="container">
-        <div id="features" class="jumbotron text-center">
-            <h1 class="pb-2 pb-md-4">Features</h1>
-            <div class="video-container">
-                <iframe id="video" width="560" height="315" type="text/html" src="https://www.youtube.com/embed/mHRFrRpP3oo" frameborder="0" class=""></iframe>
+      <div id="features" class="jumbotron text-center">
+        <h1 class="pb-2 pb-md-4">Features</h1>
+        <div class="video-container">
+          <iframe
+            id="video"
+            width="560"
+            height="315"
+            type="text/html"
+            src="https://www.youtube.com/embed/mHRFrRpP3oo"
+            frameborder="0"
+            class=""
+          ></iframe>
+        </div>
+      </div>
+      <div class="jumbotron text-center" id="pricing">
+        <h1 class="pb-2 pb-md-4">Pricing</h1>
+        <div class="row">
+          <div class="col-md-6 pb-4">
+            <div class="card">
+              <div class="card-header text-center"><h3>Mod</h3></div>
+              <div class="card-body">
+                <p>
+                  Lorem ipsum. Lorem ipsum. Lorem ipsum dolor. Lorem ipsum.
+                  Lorem ipsum. Lorem ipsum. Lorem ipsum dolor. Lorem ipsum.
+                </p>
+                <h3><strong>$50</strong></h3>
+                <button
+                  name="submit"
+                  class="btn button-color btn-lg btn-outline-secondary mt-4 mb-4"
+                >
+                  Select
+                </button>
+              </div>
             </div>
-        </div>
-        <div class="jumbotron text-center" id="pricing">
-            <h1 class="pb-2 pb-md-4">Pricing</h1>
-            <div class="row">
-                <div class="col-md-6 pb-4">
-                    <div class="card">
-                        <div class="card-header text-center"><h3>Mod</h3></div>
-                        <div class="card-body">
-                            <p>
-                                Lorem ipsum.
-                                Lorem ipsum.
-                                Lorem ipsum dolor.
-                                Lorem ipsum.
-                                Lorem ipsum.
-                                Lorem ipsum.
-                                Lorem ipsum dolor.
-                                Lorem ipsum. 
-                            </p>
-                            <h3><strong>$50</strong></h3>
-                            <button name="submit" class="btn button-color btn-lg btn-outline-secondary mt-4 mb-4">Select</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card">
-                        <div class="card-header text-center"><h3>Mod + Pedal</h3></div>
-                        <div class="card-body">
-                            <p>
-                                Lorem ipsum.
-                                Lorem ipsum.
-                                Lorem ipsum dolor.
-                                Lorem ipsum.
-                                Lorem ipsum.
-                                Lorem ipsum.
-                                Lorem ipsum dolor.
-                                Lorem ipsum.  
-                            </p>
-                            <h3><strong>$150</strong></h3>
-                            <button name="submit" class="btn button-color btn-lg btn-outline-secondary mt-4 mb-4">Select</button>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header text-center"><h3>Mod + Pedal</h3></div>
+              <div class="card-body">
+                <p>
+                  Lorem ipsum. Lorem ipsum. Lorem ipsum dolor. Lorem ipsum.
+                  Lorem ipsum. Lorem ipsum. Lorem ipsum dolor. Lorem ipsum.
+                </p>
+                <h3><strong>$150</strong></h3>
+                <button
+                  name="submit"
+                  class="btn button-color btn-lg btn-outline-secondary mt-4 mb-4"
+                >
+                  Select
+                </button>
+              </div>
             </div>
+          </div>
         </div>
-        <div id="contact" class="jumbotron text-center">
-            <h1 class="pb-2 pb-md-4">Contact</h1>
-            <img src="https://puzzlesounds.com/wp-content/uploads/blog-tips-for-better-soldering-effect-pedal-kit.jpg" alt="solder kit" class="img-fluid pb-2 pt-2 pb-md-4 pt-md-4">
-            <h3>For More Information Sign Up to Our Mailing List</h3>
-            <ul id="contact-promo"class="remove-bullets"> 
-                <li><i class="fa fa-chevron-circle-right"></i>Latest News</li>
-                <li><i class="fa fa-chevron-circle-right"></i>Promotions</li>
-                <li><i class="fa fa-chevron-circle-right"></i>Artist Stories</li>
-            </ul>
-            <div class="form-group">
-               <form id="form" name="form" action="https://www.freecodecamp.com/email-submit"> 
-                    <input id="email" name="email" type="email" class="form-control" placeholder="name@example.net" required>
-                    <input id="submit" id="submit" type="submit" value="submit" class="btn button-color btn-lg btn-outline-secondary mt-4 mb-4">
-               </form>
-            </div>    
+      </div>
+      <div id="contact" class="jumbotron text-center">
+        <h1 class="pb-2 pb-md-4">Contact</h1>
+        <img
+          src="./blog-tips-for-better-soldering-effect-pedal-kit.jpg"
+          alt="solder kit"
+          class="img-fluid pb-2 pt-2 pb-md-4 pt-md-4"
+        />
+        <h3>For More Information Sign Up to Our Mailing List</h3>
+        <ul id="contact-promo" class="remove-bullets">
+          <li><i class="fa fa-chevron-circle-right"></i>Latest News</li>
+          <li><i class="fa fa-chevron-circle-right"></i>Promotions</li>
+          <li><i class="fa fa-chevron-circle-right"></i>Artist Stories</li>
+        </ul>
+        <div class="form-group">
+          <form
+            id="form"
+            name="form"
+            action="https://www.freecodecamp.com/email-submit"
+          >
+            <input
+              id="email"
+              name="email"
+              type="email"
+              class="form-control"
+              placeholder="name@example.net"
+              required
+            />
+            <input
+              id="submit"
+              id="submit"
+              type="submit"
+              value="submit"
+              class="btn button-color btn-lg btn-outline-secondary mt-4 mb-4"
+            />
+          </form>
         </div>
+      </div>
     </div>
     <footer>
-        <ul>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#">Policy</a></li>
-        </ul>
-        <span>Copyright 2019, WorkHorseAudio.LLC</span>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#">Policy</a></li>
+      </ul>
+      <span>Copyright 2019, WorkHorseAudio.LLC</span>
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script type="text/javascript">
-        $(function(){
-            $("#toggle").click(function(){
-                $("ul").toggleClass('active');
-            });
-        });
+      $(function() {
+        $('#toggle').click(function() {
+          $('ul').toggleClass('active')
+        })
+      })
     </script>
-</body>
+  </body>
 </html>
